@@ -1,0 +1,48 @@
+<?php
+use Illuminate\Database\Seeder;
+class BillTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('bill')->insert([
+            'id'=>1,
+            'createdBy'=>4,
+            'updatedBy'=>4,
+            'customerID'=>5,
+            'created_at'=>now(),
+            'updated_at'=>now()
+        ]);
+        DB::table('bill')->insert([
+            'id'=>2,
+            'createdBy'=>4,
+            'updatedBy'=>4,
+            'customerID'=>5,
+            'created_at'=>now(),
+            'updated_at'=>now()
+        ]);
+        DB::table('bill')->insert([
+            'id'=>3,
+            'createdBy'=>4,
+            'updatedBy'=>4,
+            'customerID'=>5,
+            'created_at'=>now(),
+            'updated_at'=>now()
+        ]);
+        DB::table('bill')->insert([
+            'id'=>4,
+            'createdBy'=>4,
+            'updatedBy'=>4,
+            'customerID'=>5,
+            'created_at'=>now(),
+            'updated_at'=>now()
+        ]);
+        DB::table('bill')->insert([
+            'id'=>5,
+            'createdBy'=>4,
+            'updatedBy'=>4,
+            'customerID'=>5,
+            'created_at'=>now(),
+            'updated_at'=>now()
+        ]);
+    }
+}
